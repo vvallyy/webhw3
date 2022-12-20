@@ -34,14 +34,14 @@ function App() {
         <button className='buttonWidths' onClick={() => getInput("7")}>7</button>
         <button className='buttonWidths' onClick={() => getInput("8")}>8</button>
         <button className='buttonWidths' onClick={() => getInput("9")}>9</button>
-        <button className='buttonWidth' onClick={() => getInput("÷")}>÷</button>
+        <button className='buttonWidth' onClick={() => getInput("/")}>÷</button>
         <br></br>
         <button className='buttonWidth' onClick={() => getInput("cos")}>cos</button>
         <button className='buttonWidth' onClick={() => getInput("log")}>log</button>
         <button className='buttonWidths' onClick={() => getInput("4")}>4</button>
         <button className='buttonWidths' onClick={() => getInput("5")}>5</button>
         <button className='buttonWidths' onClick={() => getInput("6")}>6</button>
-        <button className='buttonWidth' onClick={() => getInput("x")}>x</button>
+        <button className='buttonWidth' onClick={() => getInput("*")}>x</button>
         <br></br>
         <button className='buttonWidth' onClick={() => getInput("tan")}>tan</button>
         <button className='buttonWidth' onClick={() => getInput("√")}>√ </button>
